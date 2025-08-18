@@ -4,9 +4,24 @@
   background-color: blue;
   padding: 10px;
 }
+.inner-box{
+    background-color: red;
+    padding: 10px;
+}
+
 
 p {
   color: yellow;
   margin: 0;
-  padding: 0;
+  padding: 0px;
+}
+
+.white-text{
+  color: white;
+
+}
+
+
+#outer-box{
+  background-color: purple;
 }
