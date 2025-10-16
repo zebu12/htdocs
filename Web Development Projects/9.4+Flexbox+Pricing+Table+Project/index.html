@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!doctype html>
 <html>
   <head>
     <title>Flexbox Pricing Table</title>
@@ -12,17 +12,14 @@
       body {
         font-family: "Sono", sans-serif;
       }
-      .pricing-container{
+      .pricing-container {
         display: flex;
         gap: 20px;
         justify-content: center;
         align-items: center;
         height: 100vh;
-
-        
-
       }
-      .pricing-plan{
+      .pricing-plan {
         flex: 1;
         max-width: 400px;
         background-color: #f2f2f2;
@@ -30,40 +27,38 @@
         padding: 20px;
         border-radius: 5px;
       }
-      .plan-features{
+      .plan-features {
         list-style-type: none;
         padding: 0;
         margin: 0;
       }
-      .plan-features li{
+      .plan-features li {
         margin-bottom: 20px;
       }
-      .plan-button{
+      .plan-button {
         background-color: #ff6600;
         color: white;
         border: 0px;
         border-radius: 5px;
         padding: 10px;
-        
       }
       .plan-title {
         font-size: 24px;
         font-weight: bold;
         margin-bottom: 10px;
       }
-      .plan-price{
+      .plan-price {
         font-size: 48px;
         font-weight: bold;
         margin-bottom: 10px;
       }
 
-
       /* Hint: What can you do with a media query and flexbox? */
       @media (max-width: 1250px) {
         .pricing-container {
-        flex-direction: column;
-        height: 100%;
-      }
+          flex-direction: column;
+          height: 100%;
+        }
       }
     </style>
   </head>

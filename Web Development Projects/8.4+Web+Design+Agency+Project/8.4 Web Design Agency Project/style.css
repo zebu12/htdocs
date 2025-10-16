@@ -1,8 +1,7 @@
-
 body {
   font-family: "Poppins", sans-serif;
   margin: 50px 50px 0 50px;
-  background-color: #faf9f6;
+  background-color: white;
   display: flex;
   flex-direction: column;
   min-height: 95vh;
@@ -20,33 +19,28 @@ footer {
   color: midnightblue;
 }
 
-span{
+span {
   color: midnightblue;
 }
-.tile-image{
+.tile-image {
   width: 300px;
   height: 200px;
   float: left;
   padding-right: 40px;
 }
-div{
+div {
   display: inline-block;
-  
-
 }
-.right{
+.right {
   float: right;
-  
 }
 
-
-.left{
+.left {
   float: left;
 }
-.card{
-  width:45% ;
+.card {
+  width: 45%;
 }
-
 
 @media (max-width: 680px) {
   .logo {
@@ -72,5 +66,3 @@ div{
     object-fit: cover;
   }
 }
-
-

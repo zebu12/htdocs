@@ -1,12 +1,11 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Mondrian Project</title>
-  <style>
-    /* 
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mondrian Project</title>
+    <style>
+      /* 
     Write your CSS here 
     Gap Color: #000
     White: #F0F1EC
@@ -19,80 +18,74 @@
     HINT: Remember you can't change the properties of grid lines.
     But grid lines are transparent!
     */
-    body{
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      height: 100vh;
-      margin: 0;
-      padding: 0;
+      body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        margin: 0;
+        padding: 0;
+      }
 
+      .mondrian {
+        width: 748px;
+        height: 748px;
+        display: grid;
+        grid-template-rows: 414px 130px 155px 22px;
+        grid-template-columns: 320px 198px 153px 50px;
+        gap: 9px;
+        background-color: #000;
+      }
+      .item {
+        background-color: #f0f1ec;
+      }
+      .red {
+        background-color: #e72f24;
+        grid-row-start: 1;
+        grid-column-end: 2;
+      }
+      .white {
+        grid-column-start: 2;
+        grid-column-end: -1;
+      }
+      .white04 {
+        grid-row-start: 2;
+        grid-row-end: -2;
+      }
+      .white2 {
+        grid-column: 1/2;
+        grid-row: -2/-1;
+      }
+      .black {
+        background-color: #232629;
+        grid-column: 3/-2;
+        grid-row: -2/-1;
+      }
 
-    }
+      .white3 {
+        grid-column: 4/-1;
+        grid-row: -3/-1;
+      }
+      .yellow {
+        background-color: yellow;
+        grid-column: 2/3;
+        grid-row: -2/-1;
+      }
+      .white10 {
+        grid-column: 2/-2;
+        grid-row: 2/-2;
+      }
+      .blue {
+        background-color: #004592;
+        border-bottom: 10px solid #000;
+        grid-column: 4/-4;
+        grid-column: 4/-2;
+      }
+    </style>
+  </head>
 
-    .mondrian{
-      width: 748px;
-      height: 748px;
-      display: grid;
-      grid-template-rows: 414px 130px 155px 22px;
-      grid-template-columns: 320px 198px 153px 50px;
-      gap: 9px;
-      background-color: #000;
-
-    }
-    .item{
-      background-color: #F0F1EC;
-    }
-    .red{
-      background-color: #E72F24;
-      grid-row-start: 1;
-      grid-column-end: 2;
-      
-    }
-    .white{
-      grid-column-start: 2;
-      grid-column-end: -1;
-    }
-    .white04{
-      grid-row-start: 2;
-      grid-row-end: -2;
-    }
-    .white2{
-      grid-column: 1/2;
-      grid-row: -2/-1;
-    }
-    .black{
-      background-color: #232629;
-      grid-column: 3/-2;
-      grid-row: -2/-1;
-    }
-    
-    
-    .white3{
-      grid-column: 4/-1;
-      grid-row: -3/-1;
-    }
-    .yellow{
-      background-color: yellow;
-      grid-column: 2/3;
-      grid-row: -2/-1;
-    }
-    .white10{
-      grid-column: 2/-2;
-      grid-row: 2/-2;
-    }
-    .blue{
-      background-color: #004592;
-      border-bottom: 10px solid #000;
-      grid-column: 4/-4;
-      grid-column: 4/-2;
-    }
-
-  </style>
-</head>
-
-<body>
-  <!-- Write your HTML here -->
+  <body>
+    <!-- Write your HTML here -->
     <div class="mondrian">
       <div class="item red"></div>
       <div class="item white"></div>
@@ -104,6 +97,5 @@
       <div class="item white3"></div>
       <div class="item white04"></div>
     </div>
-</body>
-
+  </body>
 </html>
