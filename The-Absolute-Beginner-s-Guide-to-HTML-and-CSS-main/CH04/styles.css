@@ -2,26 +2,24 @@
 /* CSS Document */
 
 body {
-    background-color : orange;
-
+  background-color: orange;
 }
 
 H1 {
-    color: yellow;
-    font-family: Roboto;
+  color: yellow;
+  font-family: Roboto;
 }
 
 H2 {
-    color: yellow;
-    font-family: Roboto;
-    font-weight: 400;
+  color: yellow;
+  font-family: Roboto;
+  font-weight: 400;
 }
 
-
 #footer {
-   background-color : gold;
-   font-family: Roboto;
-   line-height : 50px;
-   text-align : center;
-   vertical-align : middle;
+  background-color: gold;
+  font-family: Roboto;
+  line-height: 50px;
+  text-align: center;
+  vertical-align: middle;
 }
